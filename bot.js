@@ -4,7 +4,7 @@ const client = new Discord.Client();
 client.on("ready", () => {
     console.log(`Baymax has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`); 
 
-  client.user.setGame('with Kang ;)');
+  client.user.setGame('with Kang');
 
 });
 
