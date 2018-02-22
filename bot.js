@@ -49,5 +49,5 @@ client.on("message", msg => {
       msg.reply("https://queerty-prodweb.s3.amazonaws.com/wp/docs/2012/10/pray-your-gay-away.jpg");
     }
   })
-  
-client.login('Bot_TOKEN')
+
+client.login(process.env.BOT_TOKEN);
