@@ -4,7 +4,7 @@ const client = new Discord.Client();
 client.on("ready", () => {
     console.log(`Baymax has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`); 
 
-  client.user.setGame('With Kangy');
+  client.user.setGame('Test.');
 
 });
 
@@ -34,7 +34,7 @@ client.on("message", msg => {
 
   client.on("message", msg => {
     if (msg.content === "Baymax") {
-      msg.reply('What you want bitch.');
+      msg.reply('Yes my friend?');
     }  
   });
 
