@@ -33,8 +33,8 @@ client.on("message", msg => {
   });
 
   client.on("message", msg => {
-    if (msg.content === "Baymax") {
-      msg.reply('What you want bitch.');
+    if (msg.content === "Gravitized") {
+      msg.reply('Yes?');
     }  
   });
 
