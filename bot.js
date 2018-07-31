@@ -4,7 +4,8 @@ const client = new Discord.Client();
 client.on("ready", () => {
     console.log(`Baymax has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`); 
 
- client.setStatus('Call of Duty: Black Ops 10');
+  client.user.setActivity('Wew');
+
 });
 
 client.on("message", msg => {
@@ -33,7 +34,7 @@ client.on("message", msg => {
 
   client.on("message", msg => {
     if (msg.content === "Baymax") {
-      msg.reply('Yes my friend?');
+      msg.reply('What you want bitch.');
     }  
   });
 
@@ -48,5 +49,5 @@ client.on("message", msg => {
       msg.reply("https://queerty-prodweb.s3.amazonaws.com/wp/docs/2012/10/pray-your-gay-away.jpg");
     }
   })
-
+  
 client.login(process.env.BOT_TOKEN);
